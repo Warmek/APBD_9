@@ -31,12 +31,30 @@ namespace APBD_Zadanie_6.Configuration
 
             prescriptions.Add(new Prescription
             {
-                IdPrescription = 0,
+                IdPrescription = 1,
                 Date = DateTime.Now,
                 DueDate = DateTime.Now.AddDays(5),
-                IdPatient = 0,
-                IdDoctor = 0
+                IdPatient = 3,
+                IdDoctor = 4
             });
+            prescriptions.Add(new Prescription
+            {
+                IdPrescription = 2,
+                Date = DateTime.Now,
+                DueDate = DateTime.Now.AddDays(3),
+                IdPatient = 2,
+                IdDoctor = 3
+            });
+            prescriptions.Add(new Prescription
+            {
+                IdPrescription = 3,
+                Date = DateTime.Now,
+                DueDate = DateTime.Now.AddDays(7),
+                IdPatient = 1,
+                IdDoctor = 6
+            });
+
+            builder.HasData(prescriptions);
         }
     }
 }

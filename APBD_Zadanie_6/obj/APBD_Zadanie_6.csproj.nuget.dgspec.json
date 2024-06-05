@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s26225\\source\\repos\\APBD_Zadanie_6\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj": {}
+    "C:\\Users\\barte\\Source\\Repos\\APBD_9\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s26225\\source\\repos\\APBD_Zadanie_6\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj": {
+    "C:\\Users\\barte\\Source\\Repos\\APBD_9\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s26225\\source\\repos\\APBD_Zadanie_6\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj",
+        "projectUniqueName": "C:\\Users\\barte\\Source\\Repos\\APBD_9\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj",
         "projectName": "APBD_Zadanie_6",
-        "projectPath": "C:\\Users\\s26225\\source\\repos\\APBD_Zadanie_6\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj",
-        "packagesPath": "C:\\Users\\s26225\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s26225\\source\\repos\\APBD_Zadanie_6\\APBD_Zadanie_6\\obj\\",
+        "projectPath": "C:\\Users\\barte\\Source\\Repos\\APBD_9\\APBD_Zadanie_6\\APBD_Zadanie_6.csproj",
+        "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barte\\Source\\Repos\\APBD_9\\APBD_Zadanie_6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s26225\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barte\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,6 +62,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.19, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

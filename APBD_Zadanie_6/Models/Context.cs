@@ -19,8 +19,8 @@ namespace APBD_Zadanie_6.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new DoctorConfig());
             modelBuilder.ApplyConfiguration(new MedicamentConfig());
+            modelBuilder.ApplyConfiguration(new DoctorConfig());
             modelBuilder.ApplyConfiguration(new PatientConfig());
             modelBuilder.ApplyConfiguration(new PrescriptionConfig());
             modelBuilder.ApplyConfiguration(new PrescriptionMedicamentConfig());
